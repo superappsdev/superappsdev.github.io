@@ -1,32 +1,274 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!--<link rel="stylesheet" type="text/css" href="style.css">--> <!--CSS Style Sheet-->
-	<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">--> <!-- Favicon -->
-	<title>
-			index.html
-	</title>
-</head>
-<body> <!-- This is the Page and all the Information visable -->
-	<h2>
-	
-	</h2>
-	<h1>
-		SUPERAPPSDEV
-	</h1>
-	<div> <!-- Main Body -->
-		<p>
-		 	<b>Welcome</b>
-		</p>
-		
-	</div>
-	<div> <!-- Navigation -->
-		<p>
-			<b>Privacy Policy License:</b><br>
-	  	<a href="index.html">Home/Index</a> <br>
-	  	<a href="memory-training-game.html">Memory Training Games</a> <br>
-			<a href="internet-blocker.html">Internet Blocker</a> <br> 
-		</p>
-	</div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#2563eb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c1017" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="superappsdev — Android tools and small games on Google Play, with install links and privacy pages."
+    />
+    <title>superappsdev — Android apps</title>
+    <link rel="icon" href="assets/logo-mark.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#apps-heading">Skip to apps</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./">
+          <img
+            class="brand-mark"
+            src="assets/logo-mark.png"
+            width="264"
+            height="243"
+            alt=""
+            decoding="async"
+          />
+          <span class="brand-text">Superappsdev</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <h1 class="hero-title">Android apps designed to be simple, useful, and dependable.</h1>
+          <p class="hero-lead">
+            Thoughtfully built tools and lightweight games focused on everyday usefulness, smooth experiences, and straightforward design.
+          </p>
+          <div class="hero-actions">
+            <a class="hero-scroll" href="#apps-heading">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 9l6 6 6-6"/>
+              </svg>
+              See apps
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="apps" aria-label="On Google Play">
+        <div class="wrap">
+          <header class="section-head">
+          </header>
+          <div class="app-grid">
+            <article class="app-card" id="internet-blocker">
+              <div class="app-card-top">
+                <div class="app-icon">
+                  <img
+                    src="assets/icons/internetblocker.png"
+                    width="56"
+                    height="56"
+                    alt=""
+                    decoding="async"
+                  />
+                </div>
+                <div>
+                  <h3 class="app-card-title">Internet Blocker</h3>
+                  <p class="app-meta">Tools</p>
+                </div>
+              </div>
+              <p class="app-desc">
+                Block internet access per app without root. Monitor data and Wi‑Fi usage.
+              </p>
+              <div class="app-card-actions">
+                <a
+                  class="btn btn--play"
+                  href="https://play.google.com/store/apps/details?id=com.superappsdev.internetblocker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12M20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81M6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/>
+                  </svg>
+                  Google Play
+                </a>
+                <div class="app-card-links">
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/internet-blocker.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="app-card" id="device-info">
+              <div class="app-card-top">
+                <div class="app-icon">
+                  <img src="assets/icons/deviceinfo.png" width="56" height="56" alt="" decoding="async" />
+                </div>
+                <div>
+                  <h3 class="app-card-title">Device info</h3>
+                  <p class="app-meta">Tools</p>
+                </div>
+              </div>
+              <p class="app-desc">Quick access to device and system details in one place.</p>
+              <div class="app-card-actions">
+                <a
+                  class="btn btn--play"
+                  href="https://play.google.com/store/apps/details?id=com.superappsdev.deviceinfo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12M20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81M6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/>
+                  </svg>
+                  Google Play
+                </a>
+                <div class="app-card-links">
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/device-info.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="app-card" id="notification-notes">
+              <div class="app-card-top">
+                <div class="app-icon">
+                  <img src="assets/icons/notificationnotes.png" width="56" height="56" alt="" decoding="async" />
+                </div>
+                <div>
+                  <h3 class="app-card-title">Notification Notes &amp; Reminders</h3>
+                  <p class="app-meta">Productivity</p>
+                </div>
+              </div>
+              <p class="app-desc">Keep notes and reminders visible in your notification shade.</p>
+              <div class="app-card-actions">
+                <a
+                  class="btn btn--play"
+                  href="https://play.google.com/store/apps/details?id=com.superappsdev.notificationnotes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12M20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81M6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/>
+                  </svg>
+                  Google Play
+                </a>
+                <div class="app-card-links">
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/notification-notes.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="app-card" id="memory-training">
+              <div class="app-card-top">
+                <div class="app-icon">
+                  <img src="assets/icons/memorycrushchallenge.png" width="56" height="56" alt="" decoding="async" />
+                </div>
+                <div>
+                  <h3 class="app-card-title">Memory training games</h3>
+                  <p class="app-meta">Puzzle</p>
+                </div>
+              </div>
+              <p class="app-desc">Train your memory with color sequences and increasing difficulty.</p>
+              <div class="app-card-actions">
+                <a
+                  class="btn btn--play"
+                  href="https://play.google.com/store/apps/details?id=com.superappsdev.memorycrushchallenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12M20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81M6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/>
+                  </svg>
+                  Google Play
+                </a>
+                <div class="app-card-links">
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/memory-training-game.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="app-card" id="button-bash">
+              <div class="app-card-top">
+                <div class="app-icon">
+                  <img src="assets/icons/buttoncompetition.png" width="56" height="56" alt="" decoding="async" />
+                </div>
+                <div>
+                  <h3 class="app-card-title">Button Bash</h3>
+                  <p class="app-meta">Casual</p>
+                </div>
+              </div>
+              <p class="app-desc">
+                Fast-paced tapping challenges — classic, precision, and survival modes.
+              </p>
+              <div class="app-card-actions">
+                <a
+                  class="btn btn--play"
+                  href="https://play.google.com/store/apps/details?id=com.superappsdev.buttoncompetition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12M20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81M6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/>
+                  </svg>
+                  Google Play
+                </a>
+                <div class="app-card-links">
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/button-bash-privacy-policy.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy</a
+                  >
+                  <a
+                    class="btn btn--outline btn--secondary"
+                    href="https://superappsdev.github.io/button-bash-terms-and-conditions.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Terms</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          © <span id="y"></span> superappsdev ·
+          <a href="https://play.google.com/store/apps/dev?id=8422684999878434479" target="_blank" rel="noopener noreferrer"
+            >Google Play developer page</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
