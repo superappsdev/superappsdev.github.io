@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stories — Account &amp; data deletion | superappsdev</title>
+  <meta name="description" content="How to delete your Stories account or remove your app data. For Google Play and user support." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fafafa;
+      --card: #fff;
+      --border: #e0e0e0;
+      --accent: #1565c0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #ececec;
+        --muted: #aaa;
+        --bg: #121212;
+        --card: #1e1e1e;
+        --border: #333;
+        --accent: #64b5f6;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    .wrap { max-width: 42rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.35rem; }
+    .subtitle { color: var(--muted); font-size: 0.95rem; margin: 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.25rem;
+    }
+    h2 { font-size: 1.1rem; margin: 0 0 0.75rem; }
+    ol { margin: 0.5rem 0 0; padding-left: 1.25rem; }
+    li { margin-bottom: 0.4rem; }
+    p { margin: 0.65rem 0 0; }
+    p:first-child { margin-top: 0; }
+    .note {
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-left: 3px solid var(--accent);
+      padding-left: 0.85rem;
+      margin-top: 1rem;
+    }
+    a { color: var(--accent); }
+    footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.9rem; color: var(--muted); }
+    ul { margin: 0.5rem 0 0; padding-left: 1.25rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Stories — Account &amp; data deletion</h1>
+      <p class="subtitle">Developer: <strong>superappsdev</strong></p>
+    </header>
+
+    <div class="card">
+      <h2>Delete your account (in the app)</h2>
+      <p>Account deletion is completed inside the <strong>Stories</strong> app. After deletion you will be signed out and will need a new account to use the app again.</p>
+      <ol>
+        <li>Open the <strong>Stories</strong> app and sign in if prompted.</li>
+        <li>Open the <strong>Settings</strong> tab (bottom navigation).</li>
+        <li>Tap <strong>Profile</strong>.</li>
+        <li>Tap <strong>Account Actions</strong>.</li>
+        <li>Tap <strong>Delete Account</strong> and confirm.</li>
+        <li>If asked, complete <strong>re-authentication</strong> (enter your password for email sign-in, or complete the Google sign-in flow) — this is required for security before the account is removed.</li>
+      </ol>
+      <p class="note">If you cannot complete deletion in the app (for example you lost access), email <a href="mailto:superappsdev@gmail.com">superappsdev@gmail.com</a> from the address associated with your account, ask for account deletion, and we will verify and process your request in a reasonable time.</p>
+    </div>
+
+    <div class="card">
+      <h2>What is removed when you delete your account</h2>
+      <ul>
+        <li>Your <strong>Firebase Authentication</strong> account (you can no longer sign in with that identity).</li>
+        <li>Your main <strong>user profile document</strong> stored in our database for the app (including fields such as display name, email on file where applicable, bookmarks, likes list, notification token, and subscription flags as stored in that profile).</li>
+      </ul>
+      <p><strong>Google Play:</strong> Records of purchases and subscriptions are held by <strong>Google</strong> according to Google’s policies; deleting the app account does not erase Google’s billing history.</p>
+      <p><strong>Advertising:</strong> Ad networks (for example Google AdMob) may retain aggregated or device-level data under their own policies. See our <a href="https://superappsdev.github.io/stories-pp.html">Privacy Policy</a> for third parties.</p>
+    </div>
+
+    <div class="card">
+      <h2>Remove app data without deleting your account</h2>
+      <p>You can clear most usage data while keeping your login:</p>
+      <ol>
+        <li><strong>Settings</strong> → <strong>Profile</strong> → <strong>Account Actions</strong> → <strong>Remove All Data</strong>.</li>
+      </ol>
+      <p>This removes items such as <strong>reading history</strong>, <strong>liked stories</strong>, <strong>bookmarks</strong>, and related <strong>reading progress</strong> in the way the app implements that action.</p>
+      <p>A small amount of account data used only to run offers and limits fairly may not be reset by this action. Your reading library and history clear as described in the app when you confirm.</p>
+    </div>
+
+    <footer>
+      Last updated: April 2026 · Contact: <a href="mailto:superappsdev@gmail.com">superappsdev@gmail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
